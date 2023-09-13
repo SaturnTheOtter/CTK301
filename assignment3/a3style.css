@@ -1,0 +1,40 @@
+h1 {
+    color: purple ;
+    background-color: cyan;
+}
+
+h2 {
+    color: orange ;
+    background-color: lime;
+}
+
+h3 {
+    color: magenta;
+    background-color: grey;
+}
+
+.span1 {
+    color: white;
+    background-color: black;
+}
+
+#div1 {
+    background-color: pink;
+}
+
+#div2 {
+    background-color: aquamarine;
+}
+
+a {
+    color: red;
+
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow ;
+}

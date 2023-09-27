@@ -1,0 +1,72 @@
+body {
+    background-color: #eeee6a;
+    background-image: url(a5bg.png);
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    background-color: white;
+    border: 2px solid white ;
+    padding: 20px;
+    margin: 10px 10px 10px 10px ;
+}
+
+nav li {
+    border: 1px solid #000000;
+    width: 150px ;
+    margin: 10px;
+    background-color: #cc0000;
+    color: white;
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: darkblue;
+}
+
+nav li a:hover {
+    background-color: blue;
+   
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+
+.justifyp {
+    text-align: justify;
+}
+
+.alink {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.alink:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.foot {
+    background-color: darkblue;
+    text-align: center;
+    font: bold italic 16px Verdana, helvetica, sans-serif ; 
+    color: white;
+    border: 2px solid white ;
+    padding: 20px;
+    margin: 10px 10px 10px 10px ;
+}

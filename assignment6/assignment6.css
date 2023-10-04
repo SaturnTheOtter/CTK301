@@ -1,0 +1,99 @@
+body {
+    background-color: #eeee6a;
+    background-image: url(a62.png);
+}
+
+#wrapper {
+    width: 960px;
+    border: 3px solid black ;
+    margin: 1em auto;
+    background-color: white;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+    grid-column: span 12;
+}
+
+h1 {
+    font-weight: normal;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin: 0;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+}
+
+.george {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: justify;
+}
+
+nav {
+    grid-column: span 3;
+}
+
+nav li {
+    border: 1px solid #000000;
+    width: 150px ;
+    margin: 10px;
+    padding: 0;
+    background-color: #cc0000;
+    color: white;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: red;
+}
+
+nav li a:hover {
+    background-color: darkred;
+   
+}
+
+main {
+    grid-column: span 9;
+}
+
+.floatimg {
+    float: left;
+    border: 3px solid black;
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+.alink {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+.alink:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+footer {
+    grid-column: span 12;
+    background-color: red;
+    border: 3px solid black;
+    text-align: center;
+    font: bold italic 12px Verdana, helvetica, sans-serif ; 
+    color: white;
+    padding: 10px;
+}
